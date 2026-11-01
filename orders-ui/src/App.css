@@ -333,11 +333,10 @@
 
 .tabs {
   display: flex;
-  gap: 4px;
-  margin: 0 -4px 4px;
-  overflow-x: auto;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin: 0 0 4px;
   border-bottom: 1px solid var(--line);
-  scrollbar-width: none;
 }
 
 .tab {
